@@ -7,7 +7,7 @@ let patternCounts = {
 
 function preload() {
   // Load the image
-  img = loadImage('Images\im2.png');
+  img = loadImage('images/im2.png');
 }
 
 function setup() {
