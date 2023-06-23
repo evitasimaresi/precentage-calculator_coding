@@ -7,7 +7,8 @@ let patternCounts = {
 
 function preload() {
   // Load the image
-  img = loadImage('images/im2.png');
+  img = loadImage('images/imV.png');
+  console.log("image loaded");
 }
 
 function setup() {
@@ -35,10 +36,10 @@ function setup() {
   }
 
   // Calculate the percentages
-  let totalPixels = img.width * img.height;
-  let redPercentage = (patternCounts.red / totalPixels) * 100;
-  let greenPercentage = (patternCounts.green / totalPixels) * 100;
-  let bluePercentage = (patternCounts.blue / totalPixels) * 100;
+  let totalRGB = patternCounts.red + patternCounts.green + patternCounts.blue ;
+  let redPercentage = (patternCounts.red / totalRGB) * 100;
+  let greenPercentage = (patternCounts.green / totalRGB) * 100;
+  let bluePercentage = (patternCounts.blue / totalRGB) * 100;
 
   // Print the percentages
   console.log('Red percentage:', redPercentage);
