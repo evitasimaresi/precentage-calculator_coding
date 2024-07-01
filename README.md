@@ -7,3 +7,5 @@ Each color represent a spatial charachteristic present at school important for t
 
  Calculate the precentage of 3 colors in an image
  part of the original code provided by chatgpt, final version altered
+
+![examples](6.gpg)
